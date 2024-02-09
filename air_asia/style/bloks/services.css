@@ -1,0 +1,38 @@
+.services__list {
+    padding: 50px 0;
+}
+
+.services__item {
+    display: flex;
+    padding: 50px 0;
+}
+
+.services__img {
+    border-radius: 5px;
+    width: 460px;
+    height: 333px;
+    margin-right: 65px; 
+}
+
+.services__content {
+    flex: 1;
+}
+
+.services__title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 28px;
+}
+
+.services__text {
+    line-height: 169%;
+    margin-bottom: 55px;
+}
+
+.services__button:hover {
+    background: #fff;
+    color: #f5170e;
+    opacity: 0.55;
+    border: 1px solid #f5170e;
+}
