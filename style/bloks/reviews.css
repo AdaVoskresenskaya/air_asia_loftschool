@@ -68,6 +68,7 @@
 .reviews_user:hover {
   text-decoration: underline;
   color: #2e77a4;
+  transition: .5s;
 }
 
 .reviews_user::after {
