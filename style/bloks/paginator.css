@@ -40,12 +40,14 @@
     line-height: 32px;
   }
   
-  .paginator__item--active .paginator__link {
+  .paginator__item:hover .paginator__link {
     background-color: #fff;
     color: #f5170e;
+    transition: .8s;
   }
   
-  .paginator__item__pages--active .paginator__link {
+  .paginator__item__pages:hover .paginator__link {
     background-color: #f5170e;
     color: #fff;
+    transition: .8s;
   }
