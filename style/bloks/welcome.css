@@ -10,6 +10,15 @@
     background: url(../../img/bg_hello.png) center no-repeat;
 }
 
+.welcome__shades {
+  background: url(../../img/shades.png);
+  width: 591px;
+  height: 248px;
+  position: relative;
+  top: 193px;
+  left: 9px;
+}
+
 .welcome__content {
     display: flex;
     flex-direction: column;
