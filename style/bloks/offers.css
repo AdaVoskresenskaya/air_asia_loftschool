@@ -1,0 +1,128 @@
+.offers {
+  margin-bottom: 127px;
+}
+
+.title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 51px;
+}
+
+.title--fire:after {
+  content: "";
+  background: url(../../img/flame.png) no-repeat;
+  display: inline-flex;
+  /*position: absolute;*/
+  width: 21px;
+  height: 28px;
+  margin-left: 12px;
+  /*top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);*/
+}
+
+.offers__list {
+  /*position: relative;
+  width: 1441px;
+  left: 0;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__item {
+  min-height: 449px;
+  /*margin-right: 26px;
+  width: 360px;
+  display: inline-block;*/
+  width: calc(100% / 3 - 18px);
+  background: #fff;
+  border-radius: 5px;
+}
+
+/*.offers__item:last-child {
+  margin-right: 0;
+}*/
+
+.offers__img {
+  min-height: 144px;
+  margin-bottom: 33px;
+}
+
+.offers__title {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 21px;
+}
+
+.offers__content {
+  color: #000;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.offers__text {
+  padding-bottom: 25px;
+  color: #303030;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.offers__features {
+  width: 280px;
+  margin-left: 6px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.offers__feature {
+  display: flex;
+  padding-bottom: 24px;
+  /* margin-right: 25px;  */
+}
+
+/* .offers__feature:last-child {
+  margin-right: 0;
+} */
+
+.offers__feature-img {
+  height: 26px;
+  width: 26px;
+}
+
+.offers__feature-img--meal {
+  height: 26px;
+  width: 36px;
+}
+.offers__feature-text {
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 2px 10px;
+  bottom: 5px;
+}
+
+
+.button--offers {
+  padding: 18px 30px;
+  width: 136px;
+  text-align: center;
+  margin-top: auto;
+  background: #fff;
+  color: #f5170e;
+  border: 1px solid #f5170e;
+}
+
+.button--offers:hover {
+  background: #f5170e;
+  color: #fff;
+}
