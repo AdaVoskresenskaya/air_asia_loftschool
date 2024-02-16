@@ -54,6 +54,7 @@
 
 .menu__item:hover {
   color: #da0100;
+  transition: .7s;
 }
 
 
